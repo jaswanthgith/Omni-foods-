@@ -1,0 +1,185 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #website {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; /* Centering content on the page */
+  
+      #navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Adjusting spacing */
+        align-items: center;
+        width: 100%; /* Full width for navbar */
+        max-width: 1200px; /* Limit width */
+        padding: 10px 20px; /* Padding for responsiveness */
+        background-color: #fdf2e9; /* Light background like the one in the image */
+        gap: 30px;
+        #logo {
+          display: flex;
+          align-items: center;
+          padding: 15px;
+        }
+  
+        #nav_bar1 {
+          display: flex;
+          gap: 15px;
+          font-size: 18px;
+          padding: 20px;
+          #try{
+            width: 130px;
+            font-weight: bold;
+            background-color: #e67e22;
+            text-align: center;
+          }
+        }
+      }
+  
+      #homepage {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Better spacing */
+        align-items: center;
+        /* width: 100%; */
+        width: 1180px;
+        max-width: 1280px;
+        padding: 30px;
+        gap: 50px;
+        background-color: #fdf2e9; /* Same light beige color */
+  
+        #home1 {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+  
+          #head {
+            font-size: 50px; /* Adjusted to maintain balance */
+            font-weight: bold;
+            width: 500px;
+          }
+  
+          #head1 {
+            font-size: 22px; /* Slightly smaller for readability */
+            color: #666; /* Subtle gray tone */
+          }
+  
+          #button {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+  
+            #start, #learn {
+              padding: 15px 25px;
+              font-size: 18px;
+              background-color:#e67e22; /* Bold color for call-to-action buttons */
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+  
+            #learn {
+              background-color: #f0f0f0; /* Softer tone for secondary button */
+              color: #333;
+            }
+          }
+        }
+  
+        #homelogo {
+          width: 480px; /* Adjusting logo size based on the layout */
+          height: auto;
+        }
+      }
+  
+      #featured {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ 
+        #fea {
+          padding: 20px 20px;
+          margin-top: 20px;
+          color: grey;
+        }
+ 
+        #feaimg {
+          #fea1 {
+            width: 200px;
+            height: 30px;
+            padding: 0px 10px;
+            filter: grayscale(100%) opacity(70%)
+          }
+        }
+      }
+  
+        /* h2 {
+          font-size: 32px;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+      } */
+      #work {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        padding: 50px 120px;
+        margin-left: 0px;
+ 
+        #work1 {
+          color: #e67e22;
+          font-weight: bold;
+        }
+ 
+        #work2 {
+          font-size: 50px;
+          font-weight: bold;
+        }
+      }
+  
+      #step {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+        gap: 100px;
+ 
+        #step01 {
+          display: flex;
+          flex-direction: row;
+          justify-content: start;
+          align-items: start;
+          gap: 200px;
+ 
+          #step1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 500px;
+            gap: 20px;
+ 
+            #step11 {
+              color: rgba(128, 128, 128, 0.66);
+              font-size: 80px;
+              font-weight: bold;
+            }
+ 
+            #step12 {
+              color: black;
+              font-weight: bold;
+              font-size: 30px;
+            }
+ 
+            #step13 {
+              color: rgba(0, 0, 0, 0.774);
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  
+   
